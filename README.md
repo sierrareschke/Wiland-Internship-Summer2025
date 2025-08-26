@@ -31,7 +31,7 @@ This repository contains a summary and select code examples from my **Software E
 ---
 
 ### 4. Calculator SQL Metadata & Endpoint Refactoring (TypeScript + SQL)
-- Worked on both the **easy** and **hard** fixes for updating dynamic calculator endpoint logic in the `mxctlapi` backend  
+- Worked on both the simple and complex version fixes for updating dynamic calculator endpoint logic in the `mxctlapi` backend  
 - Modified TypeScript files (`PostCalculationWorker.ts`, `GetCalculationWorker.ts`) to update endpoint routing and SQL behavior  
 - Implemented recursive SQL insert logic to support aggregation input templates  
 - Verified SQL queries and Protobuf schema changes using a local SOA test server and gRPC-style API calls
