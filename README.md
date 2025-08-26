@@ -7,7 +7,7 @@ This repository contains a summary and select code examples from my **Software E
 ## Projects
 
 ### 1. Mart Replication QC Script Modernization (Python)
-- **Converted legacy code** from Python 3.11 to 3.9 to ensure compatibility with production environments  
+- Converted legacy code from Python 3.11 to 3.9 to ensure compatibility with production environments  
 - Refactored functions (`match`, `dataclass`, etc.), replaced `fetchmany()` with `fetchall()` to resolve data truncation issues  
 - Verified outputs using SQL (test vs. backup tables) and ensured clean merge requests via Git
 
