@@ -6,14 +6,14 @@ This repository contains a summary and select code examples from my **Software E
 
 ## Projects
 
-### 🧪 1. Mart Replication QC Script Modernization (Python)
+### 1. Mart Replication QC Script Modernization (Python)
 - **Converted legacy code** from Python 3.11 to 3.9 to ensure compatibility with production environments  
 - Refactored functions (`match`, `dataclass`, etc.), replaced `fetchmany()` with `fetchall()` to resolve data truncation issues  
 - Verified outputs using SQL (test vs. backup tables) and ensured clean merge requests via Git
 
 ---
 
-### 🧾 2. Tableau Hyper File Generator (Python + C++)
+### 2. Tableau Hyper File Generator (Python + C++)
 - Updated C++ tool to support `.hyper` file format (Tableau API) instead of deprecated `.tde` format  
 - Wrote a Python wrapper script (`write_hyper.py`) to convert SQL query output → CSV → `.hyper` file  
 - Integrated CLI parameter parsing, output type validation, and error handling logic  
@@ -21,7 +21,7 @@ This repository contains a summary and select code examples from my **Software E
 
 ---
 
-### 📦 3. Generic DataMover Wrapper for MariaDB → HDFS (Python + Spark + Scala)
+### 3. Generic DataMover Wrapper for MariaDB → HDFS (Python + Spark + Scala)
 - Built a flexible command-line wrapper script to automate DataMover job generation using manifest templates  
 - Parsed and validated parameters (server ID, table name, HDFS path, partition columns, memory settings)  
 - Used Spark and HDFS to test data movement across clusters, handling both base tables and views  
@@ -30,7 +30,7 @@ This repository contains a summary and select code examples from my **Software E
 
 ---
 
-### 🔄 4. Calculator SQL Metadata & Endpoint Refactoring (TypeScript + SQL)
+### 4. Calculator SQL Metadata & Endpoint Refactoring (TypeScript + SQL)
 - Worked on both the **easy** and **hard** fixes for updating dynamic calculator endpoint logic in the `mxctlapi` backend  
 - Modified TypeScript files (`PostCalculationWorker.ts`, `GetCalculationWorker.ts`) to update endpoint routing and SQL behavior  
 - Implemented recursive SQL insert logic to support aggregation input templates  
@@ -53,4 +53,4 @@ Throughout the internship, I:
 
 ---
 
-📌 _Some code and internal scripts have been redacted or modified to protect proprietary data and infrastructure._
+_Code, internal scripts, and specific details have been redacted to protect proprietary data and infrastructure._
