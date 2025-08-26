@@ -15,7 +15,7 @@ This repository contains a summary and select code examples from my **Software E
 
 ### 2. Tableau Hyper File Generator (Python + C++)
 - Updated C++ tool to support `.hyper` file format (Tableau API) instead of deprecated `.tde` format  
-- Wrote a Python wrapper script (`write_hyper.py`) to convert SQL query output → CSV → `.hyper` file  
+- Wrote a Python wrapper script to convert SQL query output → CSV → `.hyper` file  
 - Integrated CLI parameter parsing, output type validation, and error handling logic  
 - Collaborated with internal teams to test file output, manage deployments, and validate data formatting
 
@@ -31,8 +31,8 @@ This repository contains a summary and select code examples from my **Software E
 ---
 
 ### 4. Calculator SQL Metadata & Endpoint Refactoring (TypeScript + SQL)
-- Worked on both the simple and complex version fixes for updating dynamic calculator endpoint logic in the `mxctlapi` backend  
-- Modified TypeScript files (`PostCalculationWorker.ts`, `GetCalculationWorker.ts`) to update endpoint routing and SQL behavior  
+- Worked on both the simple and complex version fixes for updating dynamic calculator endpoint logic in the backend  
+- Modified TypeScript files to update endpoint routing (POST, GET) and SQL behavior  
 - Implemented recursive SQL insert logic to support aggregation input templates  
 - Verified SQL queries and Protobuf schema changes using a local SOA test server and gRPC-style API calls
 
